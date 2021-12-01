@@ -1,11 +1,8 @@
 server:
-  port: 8081
+  port: 8084
 spring:
   application:
-    name: Product-Api
+    name: Store-Product-Api
   data:
     mongodb:
-      uri: mongodb://localhost:27017/product-api
-integration:
-  store:
-    url:  http://kle8y.mocklab.io
+      uri: mongodb://localhost:27017/store-product-api

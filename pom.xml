@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.unifacef</groupId>
-	<artifactId>product-api</artifactId>
+	<artifactId>store-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>product-api</name>
-	<description>Api para cadastro de produtos</description>
+	<name>store-api</name>
+	<description>Api para cadastro de produtos na loja</description>
 
 	<properties>
 		<java.version>8</java.version>
@@ -42,10 +42,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -85,26 +81,6 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.ff4j</groupId>
-			<artifactId>ff4j-core</artifactId>
-			<version>${ff4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.ff4j</groupId>
-			<artifactId>ff4j-web</artifactId>
-			<version>${ff4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.ff4j</groupId>
-			<artifactId>ff4j-store-mongodb</artifactId>
-			<version>${ff4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.ff4j</groupId>
-			<artifactId>ff4j-aop</artifactId>
-			<version>${ff4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
